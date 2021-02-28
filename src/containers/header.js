@@ -54,12 +54,7 @@ class Header extends Component {
           Private Route
         </Link>
       </Nav.Item>
-      
-      {!this.props.is_authenticated
-        ? <Button onClick={() => this.props.auth.login()}>Login</Button>
-        : <Button onClick={() => this.props.auth.logout()}>Logout</Button>
-      }
-      
+     
     </Nav>
       </Navbar>
         
